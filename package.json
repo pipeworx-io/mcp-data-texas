@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-data-texas",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Texas Open Data — US government open data (data.texas.gov) via the Socrata SoQL API: state agencies, lottery, health, licensing, transportation & finance. Keyless.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-data-texas": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "data-texas"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-data-texas"
+    "url": "git+https://github.com/pipeworx-io/mcp-data-texas.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-f0ced4e8edaeaef263b71f227e0b63c3154693d27361659ca06f72bd5e495dd7",
+    "sourceCommit": "839ab210d969ef7f822cd747ea516f6bb49e9231"
   }
 }
