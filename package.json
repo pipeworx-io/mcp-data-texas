@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-data-texas",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Texas Open Data — US government open data (data.texas.gov) via the Socrata SoQL API: state agencies, lottery, health, licensing, transportation & finance. Keyless.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-af01023611bd19d8344b2d283b6331f02cd5e1fa20451454fd1a7713ec916642",
-    "sourceCommit": "01241619b78233fd55d0e3612331499a63f03ae7"
+    "sourceHash": "v1-9c1a39b6c318bb9cac35d6ee410b382daade15262bca6b81afb05fcc1902d6df",
+    "sourceCommit": "ba9dd6df5992aeb16ef2425ee86d1752c34ca636"
   }
 }
